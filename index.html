@@ -3,12 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
         <title>Web Studio</title>
     </head>
     <body>
         <header class="header">
             <nav>
-                <a href="./index.html"><span class="blue">web</span>studio</a>
+                <a class="logo" href="./index.html"><span class="blue">web</span>Studio</a>
                 <menu class="menu">
                     <li><a href="./index.html">студия</a></li>
                     <li><a href="./portfolio.html">портфолио</a></li>
@@ -27,7 +32,7 @@
         <main class="main">
             <div class="slider">
                 <h1>эффективные решения<br>для вашего бизнеса</h1>
-                <button type="button">заказать услугу</button>
+                <button class="order-service" type="button">заказать услугу</button>
             </div>
             <div>
                 <ul>
@@ -55,47 +60,46 @@
                 <img src="./images/img(1).jpg" alt="Програморование под мобильние устройства" width="370">
                 <img src="./images/img(2).jpg" alt="Дизайн" width="370">
             </section>
-            <section>
+            <section class="main-team">
                 <h2>Наша команда</h2>
                 <ul>
-                    <li>
+                    <li class="specialist">
                         <img src="./images/Михаил.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                        <h3>Игорь Демьяненко</h3>
+                        <h3 class="team">Игорь Демьяненко</h3>
                         <p>Product Designer</p>
                     </li>
                 </ul>
                 <ul>
-                    <li>
+                    <li class="specialist">
                         <img src="./images/Ольга.jpg" alt="Ольга Репина" width="270" height="260">
-                        <h3>Ольга Репина</h3>
+                        <h3 class="team">Ольга Репина</h3>
                         <p>Frontend Developer</p>
                     </li>
                 </ul>
                 <ul>
-                    <li>
+                    <li class="specialist">
                         <img src="./images/Николай.jpg"  alt="Николай Тарасов" width="270" height="260">
-                        <h3>Николай Тарасов</h3>
+                        <h3 class="team">Николай Тарасов</h3>
                         <p>Marketing</p>
                     </li>
                 </ul>
                 <ul>
-                    <li>
+                    <li class="specialist">
                         <img src="./images/Игорь.jpg" height="260" alt="Игорь Ермаков" width="270">
-                        <h3>Михаил Ермаков</h3>
+                        <h3 class="team">Михаил Ермаков</h3>
                         <p>UI Designer</p>
                     </li>
                 </ul>
             </section>
         </main>
         <footer class="footer">
-            <a href="#"><span class="blue">web</span>studio</a>
+            <a class="logo" href="#"><span class="blue">web</span>studio</a>
             <address>
                 <p>г. Киев, пр-т Леси Украинки, 26</p>
-                <ul>
+                <ul class="contact">
                     <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a href="tel:+380961111111">+380961111111</a></li>
                 </ul>
-                
             </address>
         </footer>
     </body>
