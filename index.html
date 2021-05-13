@@ -12,30 +12,32 @@
     </head>
     <body>
         <header class="header">
-            <nav>
-                <a class="logo" href="./index.html"><span class="blue">web</span>Studio</a>
-                <menu class="menu">
-                    <li><a href="./index.html">студия</a></li>
-                    <li><a href="./portfolio.html">портфолио</a></li>
-                    <li><a href="#">контакты</a></li>
-                </menu>
-            </nav>
-            <ul class="contact">
-                <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="tel:+380961111111">+380961111111</a>
-                </li>
-            </ul>
+            <div class="container">
+                <nav>
+                    <a class="logo" href="./index.html"><span class="blue">web</span>Studio</a>
+                    <menu class="menu">
+                        <li><a href="./index.html">студия</a></li>
+                        <li><a href="./portfolio.html">портфолио</a></li>
+                        <li><a href="#">контакты</a></li>
+                    </menu>
+                </nav>
+                <ul class="contact">
+                    <li>
+                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:+380961111111">+380961111111</a>
+                    </li>
+                </ul>
+            </div>
         </header>
         <main class="main">
             <div class="slider">
                 <h1>эффективные решения<br>для вашего бизнеса</h1>
-                <button class="order-service" type="button">заказать услугу</button>
+                <button class="order-service" type="button">Заказать услугу</button>
             </div>
-            <div>
-                <ul>
+            <div class="container">
+                <ul class="warranty">
                     <li>
                         <h3>Внимание к деталям</h3>
                         <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -53,43 +55,45 @@
                         <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
+                <section>
+                    <h2>Чем мы занимаемся</h2>
+                        <img src="./images/img.jpg" alt="Програмирование" width="370">
+                        <img src="./images/img(1).jpg" alt="Програморование под мобильние устройства" width="370">
+                        <img src="./images/img(2).jpg" alt="Дизайн" width="370">
+                </section>
             </div>
-            <section>
-                <h2>Чем мы занимаемся</h2>
-                <img src="./images/img.jpg" alt="Програмирование" width="370">
-                <img src="./images/img(1).jpg" alt="Програморование под мобильние устройства" width="370">
-                <img src="./images/img(2).jpg" alt="Дизайн" width="370">
-            </section>
             <section class="main-team">
                 <h2>Наша команда</h2>
-                <ul>
-                    <li class="specialist">
-                        <img src="./images/Михаил.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                        <h3 class="team">Игорь Демьяненко</h3>
-                        <p>Product Designer</p>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="specialist">
-                        <img src="./images/Ольга.jpg" alt="Ольга Репина" width="270" height="260">
-                        <h3 class="team">Ольга Репина</h3>
-                        <p>Frontend Developer</p>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="specialist">
-                        <img src="./images/Николай.jpg"  alt="Николай Тарасов" width="270" height="260">
-                        <h3 class="team">Николай Тарасов</h3>
-                        <p>Marketing</p>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="specialist">
-                        <img src="./images/Игорь.jpg" height="260" alt="Игорь Ермаков" width="270">
-                        <h3 class="team">Михаил Ермаков</h3>
-                        <p>UI Designer</p>
-                    </li>
-                </ul>
+                <div class="container team-block">
+                    <ul>
+                        <li class="specialist">
+                            <img src="./images/Михаил.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                            <h3 class="team">Игорь Демьяненко</h3>
+                            <p>Product Designer</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="specialist">
+                            <img src="./images/Ольга.jpg" alt="Ольга Репина" width="270" height="260">
+                            <h3 class="team">Ольга Репина</h3>
+                            <p>Frontend Developer</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="specialist">
+                            <img src="./images/Николай.jpg"  alt="Николай Тарасов" width="270" height="260">
+                            <h3 class="team">Николай Тарасов</h3>
+                            <p>Marketing</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="specialist">
+                            <img src="./images/Игорь.jpg" height="260" alt="Игорь Ермаков" width="270">
+                            <h3 class="team">Михаил Ермаков</h3>
+                            <p>UI Designer</p>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
         <footer class="footer">
@@ -104,4 +108,3 @@
         </footer>
     </body>
 </html>
-
