@@ -194,7 +194,7 @@ p {
     border: 1px solid #EEEEEE;
 }
 
-.all-portfolio h4, p {
+.all-portfolio h4, .program-type {
     padding: 0 0 0 24px;
 }
 
