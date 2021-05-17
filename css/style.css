@@ -42,11 +42,11 @@ body {
     padding: 0;
 }
 
-.menu li {
+.menu-item {
     list-style-type: none;
 }
 
-.menu a {
+.menu-link {
     font-weight: 500;
     font-size: 14px;
     text-transform: capitalize;
@@ -54,7 +54,7 @@ body {
     text-decoration: none;
 }
 
-.menu a:hover {
+.menu-link:hover {
     color:var(--color-hover);
 }
 
@@ -62,17 +62,17 @@ body {
     padding: 0;
 }
 
-.contact li {
+.contact-item {
     list-style-type: none;
 }
 
-.contact a {
+.contact-link {
     color:var(--color-silver);
     text-decoration: none;
     
 }
 
-.contact a:hover {
+.contact-link:hover {
     color:var(--color-hover);
 }
 
@@ -118,7 +118,7 @@ body {
     padding-top: 94px;
 }
 
-.warranty li {
+.waranty-advantage {
     max-width: 315px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -147,7 +147,7 @@ body {
     text-transform: capitalize;
 }
 
-p {
+.silver-text {
     font-size: 14px;
     color:var(--color-silver);
 }
@@ -188,22 +188,25 @@ p {
 
 /*menu-portfolio*/
 
-.filter li {
+.filter-option {
     list-style-type: none;
 }
 
-.all-portfolio li {
+.portfolio-link {
     max-width: 369px;
     margin: 15px;
     border: 1px solid #EEEEEE;
     list-style-type: none;
 }
 
-.all-portfolio a {
+.portfolio-item {
     text-decoration: none;
 }
 
-.all-portfolio h4, .program-type {
+.program-type {
+    font-size: 16px;
+}
+.h4-item, .program-type {
     padding: 0 0 0 24px;
 }
 
@@ -220,11 +223,11 @@ p {
     font-style: normal;
 }
 
-.address p {
+.address-current {
     margin: 20px 0 2px 0;
     color:var(--color-white);
 }
 
-.address li {
+.contact-item {
     padding:6px 0;
 }
